@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+target/
+build/
+dist/
+__pycache__/
+*.pyc
+node_modules/

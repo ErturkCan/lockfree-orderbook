@@ -3,7 +3,7 @@ name = "lockfree-orderbook"
 version = "0.1.0"
 edition = "2021"
 description = "High-performance lock-free order matching engine for electronic trading"
-authors = ["Trading Systems Engineer"]
+authors = ["Can Erturk"]
 license = "MIT"
 
 [dependencies]

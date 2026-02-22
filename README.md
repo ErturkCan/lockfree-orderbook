@@ -46,8 +46,8 @@ Fills (output to market)
 ```
 ┌─────────────────────────────────────────────┐
 │         Matching Engine (engine.rs)         │
-│  - Processes OrderEvents                    │
-│  - Coordinates all components               │
+│ - Processes OrderEvents                    │
+│ - Coordinates all components               │
 └──────────────┬──────────────────────────────┘
                │
       ┌────────┴────────┬──────────┬─────────┐
@@ -267,18 +267,18 @@ Comprehensive test suite covering:
 
 ```
 tests/test_matching.rs:
-  - Basic limit order matching
-  - Partial fills
-  - Price-time priority (FIFO at each level)
-  - Order cancellation
-  - Order modification
-  - Empty book scenarios
-  - Market orders
-  - Spread calculation
-  - Multiple price levels
-  - Sequential ordering
-  - Journal recording
-  - No-match scenarios (separated orders)
+ - Basic limit order matching
+ - Partial fills
+ - Price-time priority (FIFO at each level)
+ - Order cancellation
+ - Order modification
+ - Empty book scenarios
+ - Market orders
+ - Spread calculation
+ - Multiple price levels
+ - Sequential ordering
+ - Journal recording
+ - No-match scenarios (separated orders)
 ```
 
 All tests use real order flow with realistic parameters.
@@ -385,4 +385,4 @@ This engine demonstrates key systems engineering concepts relevant to trading fi
 4. **Architecture for Evolution**: Sequencer pattern enables future lock-free multi-producer design
 5. **Mathematical Thinking**: Fixed-point arithmetic, BTreeMap complexity analysis, latency percentiles
 
-The codebase prioritizes clarity and correctness while maintaining production-grade performance characteristics.
+The codebase prioritizes clarity and correctness while maintaining performance characteristics.
